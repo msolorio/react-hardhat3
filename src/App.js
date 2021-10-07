@@ -4,7 +4,11 @@ import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json';
 import './App.css';
 
 // Local Hardhat testnet
-const contractAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3';
+// const contractAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3';
+
+// Ropsten address
+const contractAddress = '0x913ed11ed9DDA53fcD86c9738fbf55A011833958';
+
 
 function App() {
   const [inputVal, setInputVal] = useState('');
